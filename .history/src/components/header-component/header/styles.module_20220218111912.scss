@@ -51,10 +51,6 @@
   &:hover::after {
     transform: scaleY(1);
   }
-
-  & .icon-div:hover {
-    color: #fff;
-  }
 }
 
 .icon-div {
@@ -63,7 +59,14 @@
   left: 50%;
   transform: translate(-50%, -40%);
   color: #666;
+  transition: all 0.3s ease;
+  &:hover {
+    color: #fff;
+  }
 }
+
+// .icon {
+// }
 
 .title {
   display: block;
