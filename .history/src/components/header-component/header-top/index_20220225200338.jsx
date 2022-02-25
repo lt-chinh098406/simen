@@ -10,7 +10,11 @@ function HeaderTop(props) {
       <div className={styles.box}>
         <div className={styles.container}>
           <a href="/#" className={`${styles.item} ${styles['item-first']}`}>
-            <img src={en} alt="English" className={styles.image} />
+            <img
+              src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/en.jpg"
+              alt="English"
+              className={styles.image}
+            />
             <span className={styles['left-text']}>English</span>
             <ion-icon name="caret-down-outline"></ion-icon>
           </a>

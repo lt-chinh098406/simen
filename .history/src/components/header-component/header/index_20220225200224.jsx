@@ -6,7 +6,11 @@ import logo from '../../../assets/img/logo.png';
 function Header() {
   return (
     <div className={styles.container}>
-      <img className={styles.image} src={logo} alt="Logo" />
+      <img
+        className={styles.image}
+        src="http://demo.snstheme.com/wp/simen/wp-content/themes/snssimen/assets/img/logo.png"
+        alt="Logo"
+      />
       <div className={styles.service}>
         {data.map((item) => (
           <div key={item.id} className={styles.item}>

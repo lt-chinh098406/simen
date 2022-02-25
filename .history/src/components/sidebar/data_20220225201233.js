@@ -7,32 +7,32 @@ import nova from '../../assets/img/nova.png';
 const items = [
   {
     id: 1,
-    imageUrl: avan,
+    imageUrl: { avan },
     alt: 'avan',
   },
   {
     id: 2,
-    imageUrl: avio,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/avio.png',
     alt: 'avio',
   },
   {
     id: 3,
-    imageUrl: lamino,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/lamino.png',
     alt: 'lamino',
   },
   {
     id: 4,
-    imageUrl: mbm,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/mbm.png',
     alt: 'mbm',
   },
   {
     id: 5,
-    imageUrl: nazic,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nazic.png',
     alt: 'nazic',
   },
   {
     id: 6,
-    imageUrl: nova,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/nova.png',
     alt: 'nova',
   },
 ];

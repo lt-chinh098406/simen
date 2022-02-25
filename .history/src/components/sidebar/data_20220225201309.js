@@ -7,32 +7,32 @@ import nova from '../../assets/img/nova.png';
 const items = [
   {
     id: 1,
-    imageUrl: avan,
+    imageUrl: { avan },
     alt: 'avan',
   },
   {
     id: 2,
-    imageUrl: avio,
+    imageUrl: { avio },
     alt: 'avio',
   },
   {
     id: 3,
-    imageUrl: lamino,
+    imageUrl: { lamino },
     alt: 'lamino',
   },
   {
     id: 4,
-    imageUrl: mbm,
+    imageUrl: { mbm },
     alt: 'mbm',
   },
   {
     id: 5,
-    imageUrl: nazic,
+    imageUrl: { nazic },
     alt: 'nazic',
   },
   {
     id: 6,
-    imageUrl: nova,
+    imageUrl: { nova },
     alt: 'nova',
   },
 ];

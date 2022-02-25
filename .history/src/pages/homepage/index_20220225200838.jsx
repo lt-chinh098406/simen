@@ -9,10 +9,6 @@ import img1 from '../../assets/poster/1.png';
 import img2 from '../../assets/poster/2.png';
 import img3 from '../../assets/poster/3.jpg';
 import img4 from '../../assets/poster/4.jpg';
-import img5 from '../../assets/poster/5.jpg';
-import img6 from '../../assets/poster/6.jpg';
-import img7 from '../../assets/poster/7.jpg';
-import img8 from '../../assets/poster/8.jpg';
 
 function HomePage() {
   const [loadItem, setLoadItem] = useState(4);
@@ -49,7 +45,10 @@ function HomePage() {
       </div>
       <div className={styles.hero}>
         <div className={styles['hero-img']}>
-          <img src={img5} alt="" />
+          <img
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/call-to-action.jpg"
+            alt=""
+          />
         </div>
         <div className={styles['hero-content']}>
           <h2 className={styles['hero-title']}>AXEL - STOOL</h2>
@@ -64,13 +63,23 @@ function HomePage() {
       </div>
       <div className={styles.banner}>
         <div className={styles['banner-box']}>
-          <img className={styles['banner-img']} src={img6} alt="" />
+          <img
+            className={styles['banner-img']}
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/baner-shipping.jpg"
+            alt=""
+          />
         </div>
         <div className={styles['banner-box']}>
-          <img src={img7} alt="" />
+          <img
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner3.jpg"
+            alt=""
+          />
         </div>
         <div className={styles['banner-box']}>
-          <img src={img8} alt="" />
+          <img
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner4.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>

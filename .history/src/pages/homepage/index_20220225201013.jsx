@@ -67,10 +67,16 @@ function HomePage() {
           <img className={styles['banner-img']} src={img6} alt="" />
         </div>
         <div className={styles['banner-box']}>
-          <img src={img7} alt="" />
+          <img
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner3.jpg"
+            alt=""
+          />
         </div>
         <div className={styles['banner-box']}>
-          <img src={img8} alt="" />
+          <img
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner4.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>

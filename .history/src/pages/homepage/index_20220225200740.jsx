@@ -5,14 +5,7 @@ import items from '../data.js';
 import Product from '../../components/cart-items/Product/index';
 import CustomButton from '../../components/custom-button/index';
 
-import img1 from '../../assets/poster/1.png';
-import img2 from '../../assets/poster/2.png';
-import img3 from '../../assets/poster/3.jpg';
-import img4 from '../../assets/poster/4.jpg';
-import img5 from '../../assets/poster/5.jpg';
-import img6 from '../../assets/poster/6.jpg';
-import img7 from '../../assets/poster/7.jpg';
-import img8 from '../../assets/poster/8.jpg';
+import 1 from '../../assets/poster/1.png'
 
 function HomePage() {
   const [loadItem, setLoadItem] = useState(4);
@@ -31,16 +24,32 @@ function HomePage() {
     <div className={styles.home}>
       <div className={styles.content}>
         <div className={styles.box1}>
-          <img className={styles.img1} src={img1} alt="" />
+          <img
+            className={styles.img1}
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/01.png"
+            alt=""
+          />
         </div>
         <div className={styles.box2}>
-          <img className={styles.img2} src={img2} alt="" />
+          <img
+            className={styles.img2}
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/5.png"
+            alt=""
+          />
         </div>
         <div className={styles.box3}>
-          <img className={styles.img} src={img3} alt="" />
+          <img
+            className={styles.img}
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner1-300x286.jpg"
+            alt=""
+          />
         </div>
         <div className={styles.box4}>
-          <img className={styles.img} src={img4} alt="" />
+          <img
+            className={styles.img}
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner2-300x286.jpg"
+            alt=""
+          />
         </div>
       </div>
       <Product itemsFilter={itemsFilter} />
@@ -49,7 +58,10 @@ function HomePage() {
       </div>
       <div className={styles.hero}>
         <div className={styles['hero-img']}>
-          <img src={img5} alt="" />
+          <img
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/call-to-action.jpg"
+            alt=""
+          />
         </div>
         <div className={styles['hero-content']}>
           <h2 className={styles['hero-title']}>AXEL - STOOL</h2>
@@ -64,13 +76,23 @@ function HomePage() {
       </div>
       <div className={styles.banner}>
         <div className={styles['banner-box']}>
-          <img className={styles['banner-img']} src={img6} alt="" />
+          <img
+            className={styles['banner-img']}
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2011/05/baner-shipping.jpg"
+            alt=""
+          />
         </div>
         <div className={styles['banner-box']}>
-          <img src={img7} alt="" />
+          <img
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner3.jpg"
+            alt=""
+          />
         </div>
         <div className={styles['banner-box']}>
-          <img src={img8} alt="" />
+          <img
+            src="http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/banner4.jpg"
+            alt=""
+          />
         </div>
       </div>
     </div>

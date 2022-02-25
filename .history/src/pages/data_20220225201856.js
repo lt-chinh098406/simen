@@ -1,29 +1,8 @@
-import img1 from '../assets/items/1.jpg';
-import img2 from '../assets/items/2.jpg';
-import img3 from '../assets/items/3.jpg';
-import img4 from '../assets/items/4.jpg';
-import img5 from '../assets/items/5.jpg';
-import img6 from '../assets/items/6.jpg';
-import img7 from '../assets/items/7.jpg';
-import img8 from '../assets/items/8.jpg';
-import img9 from '../assets/items/9.jpg';
-import img10 from '../assets/items/10.jpg';
-import img11 from '../assets/items/11.jpg';
-import img12 from '../assets/items/12.jpg';
-import img13 from '../assets/items/13.jpg';
-import img14 from '../assets/items/14.jpg';
-import img17 from '../assets/items/17.jpg';
-import img21 from '../assets/items/21.jpg';
-import img22 from '../assets/items/22.jpg';
-import img23 from '../assets/items/23.jpg';
-import img25 from '../assets/items/25.jpg';
-import img26 from '../assets/items/26.jpg';
-
 const items = [
   {
     id: 1,
     name: 'Curabitur non',
-    imageUrl: img1,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/22-215x260.jpg',
     price: 54,
     sofas: true,
     bedroom: true,
@@ -34,7 +13,7 @@ const items = [
   {
     id: 2,
     name: 'Donec cursus',
-    imageUrl: img2,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/15-215x260.jpg',
     price: 15,
     furniture: true,
     coffeeTable: true,
@@ -45,7 +24,7 @@ const items = [
   {
     id: 3,
     name: 'External/Affiliate Product',
-    imageUrl: img3,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/26-215x260.jpg',
     price: 8,
     furniture: true,
     coffeeTable: true,
@@ -56,7 +35,7 @@ const items = [
   {
     id: 4,
     name: 'Grouped Product',
-    imageUrl: img4,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/11-215x260.jpg',
     price: 12,
     furniture: true,
     coffeeTable: true,
@@ -67,7 +46,7 @@ const items = [
   {
     id: 5,
     name: 'Iaculis orci',
-    imageUrl: img5,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/8-215x260.jpg',
     price: 35,
     furniture: false,
     coffeeTable: false,
@@ -78,7 +57,7 @@ const items = [
   {
     id: 6,
     name: 'Laoreet ultrices',
-    imageUrl: img6,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/20-215x260.jpg',
     price: 35,
     furniture: false,
     coffeeTable: false,
@@ -89,7 +68,7 @@ const items = [
   {
     id: 7,
     name: 'Maecenas consequat',
-    imageUrl: img7,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/32-215x260.jpg',
     price: 35,
     furniture: false,
     coffeeTable: false,
@@ -100,7 +79,7 @@ const items = [
   {
     id: 8,
     name: 'Modular Modern',
-    imageUrl: img8,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/28-215x260.jpg',
     price: 9,
     furniture: true,
     coffeeTable: true,
@@ -111,7 +90,7 @@ const items = [
   {
     id: 9,
     name: 'Modular Modern',
-    imageUrl: img9,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/19-215x260.jpg',
     price: 9,
     furniture: true,
     coffeeTable: true,
@@ -122,7 +101,7 @@ const items = [
   {
     id: 10,
     name: 'Modular Modern',
-    imageUrl: img10,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/3-215x260.jpg',
     price: 9,
     furniture: true,
     coffeeTable: true,
@@ -133,7 +112,7 @@ const items = [
   {
     id: 11,
     name: 'Modular Modern',
-    imageUrl: img11,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/10-215x260.jpg',
     price: 2,
     furniture: true,
     coffeeTable: true,
@@ -144,7 +123,7 @@ const items = [
   {
     id: 12,
     name: 'Modular Modern',
-    imageUrl: img12,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg',
     price: 600,
     furniture: true,
     coffeeTable: true,
@@ -155,7 +134,7 @@ const items = [
   {
     id: 13,
     name: 'Nisi vitae',
-    imageUrl: img13,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/7-215x260.jpg',
     price: 35,
     furniture: false,
     coffeeTable: false,
@@ -166,7 +145,7 @@ const items = [
   {
     id: 14,
     name: 'Patient sofa',
-    imageUrl: img14,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/9-215x260.jpg',
     price: 35,
     furniture: false,
     coffeeTable: false,
@@ -177,7 +156,7 @@ const items = [
   {
     id: 15,
     name: 'Modular Modern',
-    imageUrl: img9,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/19-215x260.jpg',
     price: 9,
     furniture: true,
     coffeeTable: false,
@@ -188,7 +167,7 @@ const items = [
   {
     id: 16,
     name: 'Modular Modern',
-    imageUrl: img10,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/3-215x260.jpg',
     price: 14,
     furniture: true,
     coffeeTable: false,
@@ -199,7 +178,7 @@ const items = [
   {
     id: 17,
     name: 'Modular Modern',
-    imageUrl: img17,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/24-215x260.jpg',
     price: 13,
     furniture: true,
     coffeeTable: false,
@@ -208,9 +187,9 @@ const items = [
     sale: false,
   },
   {
-    id: 18,
+    id: 19,
     name: 'Modular Modern',
-    imageUrl: img11,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/10-215x260.jpg',
     price: 2,
     furniture: true,
     coffeeTable: false,
@@ -219,9 +198,9 @@ const items = [
     sale: true,
   },
   {
-    id: 19,
+    id: 20,
     name: 'Modular Modern',
-    imageUrl: img3,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/26-215x260.jpg',
     price: 10,
     furniture: true,
     coffeeTable: false,
@@ -230,9 +209,9 @@ const items = [
     sale: false,
   },
   {
-    id: 20,
+    id: 21,
     name: 'Modular Modern',
-    imageUrl: img12,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/17-215x260.jpg',
     price: 7,
     furniture: true,
     coffeeTable: false,
@@ -241,9 +220,9 @@ const items = [
     sale: true,
   },
   {
-    id: 21,
+    id: 22,
     name: 'Praesent at',
-    imageUrl: img21,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/31-215x260.jpg',
     price: 15,
     furniture: true,
     coffeeTable: true,
@@ -252,9 +231,9 @@ const items = [
     sale: false,
   },
   {
-    id: 22,
+    id: 23,
     name: 'scelerisque accumsan',
-    imageUrl: img22,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/21-215x260.jpg',
     price: 12,
     furniture: true,
     coffeeTable: true,
@@ -263,9 +242,9 @@ const items = [
     sale: true,
   },
   {
-    id: 23,
+    id: 24,
     name: 'Urna in eros',
-    imageUrl: img23,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/29-215x260.jpg',
     price: 12,
     furniture: true,
     coffeeTable: true,
@@ -274,9 +253,9 @@ const items = [
     sale: true,
   },
   {
-    id: 24,
+    id: 25,
     name: 'Variable Product',
-    imageUrl: img17,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/24-215x260.jpg',
     price: 8,
     furniture: true,
     coffeeTable: true,
@@ -285,9 +264,9 @@ const items = [
     sale: false,
   },
   {
-    id: 25,
+    id: 26,
     name: 'Variable Product – Color',
-    imageUrl: img25,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/27-215x260.jpg',
     price: 30,
     furniture: false,
     coffeeTable: false,
@@ -296,9 +275,9 @@ const items = [
     sale: true,
   },
   {
-    id: 26,
+    id: 27,
     name: 'Variable Product – Image',
-    imageUrl: img26,
+    imageUrl: 'http://demo.snstheme.com/wp/simen/wp-content/uploads/2015/11/33-215x260.jpg',
     price: 30,
     furniture: false,
     coffeeTable: false,
