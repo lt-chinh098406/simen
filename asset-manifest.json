@@ -1,13 +1,19 @@
 {
   "files": {
     "main.css": "/simen/static/css/main.b3b8b089.css",
-    "main.js": "/simen/static/js/main.bd332c32.js",
+    "main.js": "/simen/static/js/main.2e3359c6.js",
+    "static/media/2.png": "/simen/static/media/2.82270b1287d3b630ad21.png",
+    "static/media/7.jpg": "/simen/static/media/7.56904f0a02910dd7fb2c.jpg",
+    "static/media/8.jpg": "/simen/static/media/8.f87b7bfa624d39dd8889.jpg",
+    "static/media/1.png": "/simen/static/media/1.80fc414fd79d8252d914.png",
+    "static/media/6.jpg": "/simen/static/media/6.384d8df0db53249fdb36.jpg",
+    "static/media/5.jpg": "/simen/static/media/5.9d3292364ad389f8aae6.jpg",
     "index.html": "/simen/index.html",
     "main.b3b8b089.css.map": "/simen/static/css/main.b3b8b089.css.map",
-    "main.bd332c32.js.map": "/simen/static/js/main.bd332c32.js.map"
+    "main.2e3359c6.js.map": "/simen/static/js/main.2e3359c6.js.map"
   },
   "entrypoints": [
     "static/css/main.b3b8b089.css",
-    "static/js/main.bd332c32.js"
+    "static/js/main.2e3359c6.js"
   ]
 }
