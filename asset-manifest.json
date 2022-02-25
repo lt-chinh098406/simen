@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/simen/static/css/main.b3b8b089.css",
+    "main.js": "/simen/static/js/main.bd332c32.js",
+    "index.html": "/simen/index.html",
+    "main.b3b8b089.css.map": "/simen/static/css/main.b3b8b089.css.map",
+    "main.bd332c32.js.map": "/simen/static/js/main.bd332c32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3b8b089.css",
+    "static/js/main.bd332c32.js"
+  ]
+}
